@@ -1,0 +1,36 @@
+{
+  "name": "@microfocus/hubot-alm-octane",
+  "description": "Basic interaction with octane",
+  "version": "0.0.1",
+  "license": "Apache-2.0",
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "octane",
+    "alm-octane"
+  ],
+  "contributors": [
+    "Moshe Stekel <moshe.stekel@microfocus.com>",
+    "Daniel Shmaya <daniel.shmaya@microfocus.com>",
+    "Laura Buzas <laura-andrada.buzas@microfocus.com>",
+    "Alexander Stnciu <alexander.stanciu@microfocus.com>"
+  ],
+  "dependencies": {
+    "lodash.clonedeep": "4.5.0",
+    "request": "2.88.0",
+    "@microfocus/alm-octane-js-rest-sdk": "15.0.20"
+  },
+  "peerDependencies": {
+    "hubot": "3.0.0"
+  },
+  "devDependencies": {
+    "coffee-script": "1.12.6",
+    "hubot": "3.3.2",
+    "standard": "14.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicroFocus/hubot-alm-octane.git"
+  },
+  "main": "index.coffee"
+}
