@@ -1,7 +1,7 @@
 {
   "name": "@microfocus/hubot-alm-octane",
   "description": "Basic interaction with octane",
-  "version": "0.0.1",
+  "version": "15.0.20-beta.1",
   "license": "Apache-2.0",
   "keywords": [
     "hubot",
@@ -31,6 +31,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MicroFocus/hubot-alm-octane.git"
+  },
+  "bugs":  {
+    "url" : "https://github.com/MicroFocus/hubot-alm-octane/issues"
   },
   "main": "index.coffee"
 }

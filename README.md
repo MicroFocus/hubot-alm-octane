@@ -37,9 +37,9 @@ See [`src/alm-octane.js`](src/alm-octane.js) for more details about commands and
 
 In hubot project repo, run:
 
-`npm install hubot-alm-octane --save`
+`npm install @microfocus/hubot-alm-octane --save`
 
-Then add **hubot-alm-octane** to your `external-scripts.json`:
+Then add **@microfocus/hubot-alm-octane** to your `external-scripts.json`:
 
 ```json
 [
