@@ -27,7 +27,8 @@ See [`src/alm-octane.js`](src/alm-octane.js) for more details about commands and
   [slack token](https://slack.dev/hubot-slack/#getting-a-slack-token).
   Depending on the Octane version used, the "ENABLE_LEGACY_TECH_PREVIEW_CLIENT_TYPE" site parameter 
   (Settings -> Site -> Parameters) needs to be set to true.  
- ###Recommended Versions
+  
+ ### Recommended Versions
  - hubot: 3.3.2
  - node: 12.14.1
  - octane: 15.0.40
@@ -72,7 +73,7 @@ To set the proxy, use the HTTP_PROXY, HTTPS_PROXY and NO_PROXY environment varia
 These variables are the same ones that the 
 [request](https://github.com/request/request#controlling-proxy-behaviour-using-environment-variables) package uses 
    
-   ####Disclaimer 
+   #### Disclaimer 
    This bot does no permission checks which means that anyone who can give commands to the bot will be able to 
    see/modify data in octane to the extent of what the bot can. If someone should not be able to do all the operations
    that the bot can do, they should not be given access to the bot.  
