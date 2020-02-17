@@ -1,7 +1,7 @@
 {
   "name": "@microfocus/hubot-alm-octane",
   "description": "Basic interaction with octane",
-  "version": "15.0.20-beta.1",
+  "version": "15.0.20",
   "license": "Apache-2.0",
   "keywords": [
     "hubot",
@@ -21,7 +21,7 @@
     "@microfocus/alm-octane-js-rest-sdk": "15.0.20"
   },
   "peerDependencies": {
-    "hubot": "3.0.0"
+    "hubot": "^3.0.0"
   },
   "devDependencies": {
     "coffee-script": "1.12.6",
